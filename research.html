@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+  Spatial by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+  <head>
+    <title>Research</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+
+    <!-- Header -->
+      <header id="header" class="alt2">
+        <h1><strong><a href="index.html">Hannah O. Nesser</a></strong></h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications & Presentations</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+    <!-- Main -->
+      <section id="main" class="wrapper style4">
+        <div class="container 75%">
+          <header class="major special">
+            <h2>Research</h2>
+            <p><br>Understanding methane emissions with high-resolution satellite observations</p>
+          </header>
+
+          <section>
+            <div class="container 75%">
+              <!-- <h3><span class='notbold'>TROPOMI Methane Concentrations<br>Summer 2019</span></h3> -->
+              <video width="50%" autoplay loop muted>
+                <source src="images/2019_JJA_CH4.mov" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <center><caption>TROPOMI Methane Concentrations, Summer 2019</caption></center>
+
+              <p><br>All modelled pathways that limit global warming to 1.5&degC require deep reductions in methane emissions.<sup><a href="https://www.ipcc.ch/sr15/">1</a></sup> The sources of methane emissions, including oil and natural gas, livestock, waste management, and wetlands, are well known, but significant uncertainty exists in their spatial and temporal distribution. I work to improve methane emission estimates using high-resolution satellite observations through inverse analyses.</p>
+
+              <ul class="actions">
+                <li><a href="#ReducedRank" class="button fit">Decreasing Computational Cost</a></li>
+                <li><a href="#NAEmissions" class="button fit">North American Methane Emissions</a></li>
+                <li><a href="#BCSensitivity" class="button fit">Importance of Boundary Conditions</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+
+        <!-- Text -->
+          <section id="ReducedRank" class="wrapper style2">
+            <div class="container 75%">
+              <header>
+                <h2>Decreasing the computational cost of high-resolution, analytical inversions</h2>
+              </header>
+              <p>Analytical inversions of satellite observations of atmospheric composition can improve emissions estimates and quantify error but are computationally expensive at high resolution. We propose two methods to decrease this cost. In an inversion of GOSAT satellite methane observations, the methods reproduce high-resolution results at a quarter of the cost. The reduced-dimension method creates a multiscale grid. The reduced-rank method solves the inversion where information content is highest.</p>
+              <div class="image fit">
+                <img src="images/reduced_rank_summary.png" alt="" />
+              </div>
+              <h1>Citation</h1>
+              <p><b>Nesser, H.</b>, D.J. Jacob, J.D. Maasakkers, T.R. Scarpelli, M.P. Sulprizio, Y. Zhang, and C.H. Rycroft, <i>Reduced-cost construction of Jacobian matrices for high- resolution inversions of satellite observations of atmospheric composition</i>, Atm. Meas. Tech., 14, 5521–5534, https://doi.org/10.5194/amt-14-5521-2021, 2021. <a href="https://amt.copernicus.org/articles/14/5521/2021/amt-14-5521-2021.pdf">[Link]</a></p>
+            </div>
+          </section>
+
+          <section id="NAEmissions" class="wrapper style2">
+            <div class="container 75%">
+              <header>
+                <h2>Quantifying methane emissions at high resolution across North America</h2>
+              </header>
+              <p>The TROPOspheric Monitoring Instrument (TROPOMI) aboard Sentinel-5 Precursor provides daily, global observations of atmospheric methane columns at 7 &times 5.5 km<sup>2</sup> pixel resolution. However, TROPOMI has a retrieval rate of only ~3% due to cloud cover and other limiting factors. We use this data in an analytical inversion that quantifies both emissions and the information content of the observations at 0.25&deg &times 0.3125&deg resolution over North America for 2019. We achieve high resolution on the continental scale with a reduced-rank eigenvector characterization of the observing system.<sup><a href="#ReducedRank">2</a></sup> We perform substantial cleaning of the TROPOMI data to avoid regional biases. Prior methane emission estimates for the inversion are gridded versions of the national inventories reported by individual countries under the Paris Agreement. We use inversion results to correct the methane emissions in these national inventories for different sectors and regions, providing a top-down framework for using satellite observations to improve national methane emission reporting.</p>
+              <div class="image centered">
+                <img src="images/northamerica.gif" alt="" />
+              </div>
+            </div>
+          </section>
+
+          <section id="BCSensitivity" class="wrapper style2">
+            <div class="container 75%">
+              <header>
+                <h2>Understanding the sensitivity of regional inverse analyses to boundary conditions</h2>
+              </header>
+              <p>Regional inverse studies use chemical transport models (CTMs) and observations of methane concentrations to improve methane emission estimates at the high resolution needed to identify emission sources.  However, the optimized emission estimates are sensitive to the methane concentrations used by the CTM at the boundary of the domain. We present a theoretical and numerical framework to quantify, predict, and correct the influence of these biases on the improved emissions estimates.</p>
+            </div>
+          </section>
+
+    <!-- Footer -->
+      <footer id="footer">
+        <div class="container">
+<!--          <ul class="icons">
+            <li><a href="#" class="icon fa-facebook"></a></li>
+            <li><a href="#" class="icon fa-twitter"></a></li>
+            <li><a href="#" class="icon fa-instagram"></a></li>
+          </ul> -->
+          <ul class="copyright">
+            <li>&copy; Hannah O. Nesser</li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: Hannah O. Nesser</li>
+          </ul>
+        </div>
+      </footer>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
