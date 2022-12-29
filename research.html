@@ -14,7 +14,7 @@
   <body>
 
     <!-- Header -->
-      <header id="header" class="alt2">
+      <header id="header">
         <h1><strong><a href="index.html">Nikhil Dadheech</a></strong></h1>
         <nav id="nav">
           <ul>
@@ -30,14 +30,50 @@
       <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
     <!-- Main -->
-      <section id="main" class="wrapper style4">
+      <section id="main">
         <div class="container 75%">
           <header class="major special">
-            <h2>Under construction</h2>
+            <h2>Research</h2>
             </header>
+            <p>My research interests focus on developing computationally efficient methods to estimate greenhouse gas (GHG) emissions using machine learning and stochastic methods. Next generation dense observing systems are providing unprecedented coverage of GHGs. This will help us understand why the global concentrations of GHGs are rising and the role of point sources. However, conventional atmospheric transport models present computational challenges which limit our understanding of point sources and global carbon cycle. We propose machine learning and stochastic based methods to address these computational limitations.</p>
+              <p><br></p>
 
         </div>
       </section>
+
+
+      <section id="Footprints" class="">
+            <div class="container 75%">
+              <header>
+                <h2>Machine learning emulator for full physics-based atmospheric transport model</h2>
+              </header>
+              <p>Full physics-based atmospheric transport models are very computationally expensive for high resolution data. Past studies have shown that point sources dominate the overall methane emission budget and dense observations are required to estimate emissions from point sources. We propose to develop a machine learning based model which will be computing footprints in near-real-time. This will help us address computational limitations in conventional atmospheric transport models. Further, this model can also be used in stochastic inversions to solve for emissions fluxes.</p>
+              <!-- <img src="images/footprint_winds20180301.gif" type="gif" /> -->
+
+              <div class="image fit">
+                <img src="images/deep_learning.png" type="png" />
+              </div>
+              <!-- <h1>Citation</h1> -->
+              
+            </div>
+          </section>
+
+
+      <section id="Inversion" class="">
+            <div class="container 75%">
+              <header>
+                <h2>Estimation of emissions of CO2 and methane</h2>
+              </header>
+              <p>We propose to integrate the footprints produced by the machine learning emulator in inversion framework to compute the emissions fluxes of CO2 and methane. We have been currently focusing on Bayesian Inference method to invert for emission fluxes. We are focussing on the San Fransico Bay Area and the measurements are made by BEACO2N dense observing system. We aim to first compute the emissions fluxes for covid-19 period and compare them with results obtained using atmospheric transport models. Once the emulator results matches with the conventional atmospheric transport model then we will focus on other regions and timescales as well. The figure shows the emissions fluxes from atmopheric transport model pipeline. </p>
+              <!-- <img src="images/footprint_winds20180301.gif" type="gif" /> -->
+
+              <div class="image fit">
+                <img src="images/stilt_emission_fluxes.png" type="png" />
+              </div>
+              <!-- <h1>Citation</h1> -->
+              
+            </div>
+          </section> 
 
     <!-- Footer -->
       <footer id="footer">
