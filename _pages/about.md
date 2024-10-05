@@ -16,3 +16,5 @@ Education
 * Ph.D in Atmospheric and Climate Science (Specialization: Advanced Data Science), University of Washington (expected 2026)
 * M.S. in Atmospheric Sciences, University of Washington 2024
 * B.Tech. in Civil Engineering, Indian Institute of Technology Delhi, India, 2019
+
+CV: ../files/Dadheech_Resume.pdf
