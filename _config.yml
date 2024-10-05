@@ -21,7 +21,7 @@ repository               : "nd349.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Nikhil Dadheech"
   pronouns         : "he/him"  
   bio              : "Fourth year PhD Student in Department of Atmospheric and Climate Science"
