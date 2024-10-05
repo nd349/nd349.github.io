@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Shukla, K., Dadheech, N., Kumar, P., & Khare, M. (2021). Regression-based flexible models for photochemical air pollutants in the national capital territory of megacity Delhi. Chemosphere, 272, 129611."
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
