@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 I am working with Dr Alex Turner on identifying greenhouse gas (GHG) sources using machine learning. My research focuses on application of machine learning in emulating atmospheric transport in flux inversion and detecting methane plumes from space.
-Originally, I am from Chittorgarh city of Rajasthan, India which is known for its rich history and one of the biggest forts in India. I did my bachelors in Civil Engineering from Indian Institute of Technology Delhi (IIT Delhi) in 2019. 
-
+Originally, I am from Chittorgarh city of Rajasthan, India which is known for its rich history and one of the biggest forts in India. Outside of work, you will find me cooking, exploring Washington, and biking around Seattle.
 {% include base_path %}
 
 Education
