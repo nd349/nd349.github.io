@@ -1,7 +1,7 @@
 ---
 title: "FootNet: Machine Learning Emulator for Atmospheric Transport"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/footnet_unet.png'>"
+excerpt: "FootNet model takes meteorology (e.g. winds, PBL height, surface pressure, Gaussian plume etc.) to compute source-receptor relationship (measurement footprint) for an observation. This is an important component of GHG flux inversion.<br/><img src='/images/footnet_unet.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Full physics atmospheric transport models (e.g. STILT, Flexpart etc.) are computationally expensive as well as storage intensive for high-resolution dense observing systems. Here we developed a machine learning emulator for atmospheric transport (FootNet) which is based on U-Net model architecture. FootNet is trained on measurement footprint outputs from STILT simulations. <br/><img src='/images/footnet_unet.png'>
