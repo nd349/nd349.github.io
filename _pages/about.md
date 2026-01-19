@@ -6,13 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I am Nikhil Dadheech, a PhD student at the University of Washington. I work with Dr. Alex Turner on developing computationally efficient methods for inferring greenhouse gas fluxes. My research focuses on building physics-guided deep learning model (FootNet) for atmospheric transport to enable scalable flux inversions.
 
-I am working with Dr Alex Turner on identifying greenhouse gas (GHG) sources using machine learning. My research focuses on application of machine learning in emulating atmospheric transport in flux inversion and detecting methane plumes from space.
-Originally, I am from Chittorgarh city of Rajasthan, India which is known for its rich history and one of the biggest forts in India. Outside of work, you will find me cooking, exploring Washington, and biking around Seattle.
+Originally, I am from Chittorgarh city of Rajasthan, India, which is known for its rich history and is home to one of the largest forts in India. Outside of work, you will find me cooking, exploring Washington, and biking around Seattle.
 {% include base_path %}
 
 Education
 ======
-* Ph.D in Atmospheric and Climate Science (Specialization: Advanced Data Science), University of Washington (expected 2026)
-* M.S. in Atmospheric Sciences, University of Washington 2024
-* B.Tech. in Civil Engineering, Indian Institute of Technology Delhi, India, 2019
+* Ph.D University of Washington (present)
+* M.S. University of Washington (2024)
+* B.Tech. Indian Institute of Technology Delhi (2019)
