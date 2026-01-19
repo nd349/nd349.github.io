@@ -4,32 +4,32 @@ excerpt: "FootNet model takes meteorology (e.g. winds, PBL height, surface press
 collection: portfolio
 ---
 
-Full physics atmospheric transport models (e.g. STILT, Flexpart etc.) are computationally expensive as well as storage intensive for high-resolution dense observing systems. Here we developed a machine learning emulator for atmospheric transport (FootNet) which is based on U-Net model architecture. FootNet is trained on measurement footprint outputs from STILT simulations. FootNet computes a measurement 1000x faster than a full physics model and provides a 650x speed up in estimating GHG emission sources using flux inversion. Footprints can be computed on-the-fly with FootNet which allows for real-time GHG emission monitoring at high-resolution with dense observing systems.
+Full physics atmospheric transport models (e.g. STILT, Flexpart etc.) are computationally expensive as well as storage intensive for high-resolution dense observing systems. Here we developed a deep learning emulator for atmospheric transport (FootNet) which is based on U-Net++ architecture. FootNet is trained on half a million footprint outputs from STILT simulations. FootNet computes a footprint 1000x faster than a full physics model and provides a 650x speed up in estimating GHG emission sources using flux inversion. Footprints can be computed on-the-fly with FootNet, which allows for real-time and scalable GHG emission monitoring at high-resolution with dense observing systems.
 
 
-<br><br><img src='/images/footnet_unet.png'><br>
-Fig. Top row shows the schematic diagram of the FootNet model. Detailed structure of FootNet is shown at the bottom. 
+<br><br><img src='/images/footnet_architecture.png'><br>
+Fig. FootNet model architecture along with inputs and output of the model. 
 
 <section>
 <h3>Citations</h3>
 	<li class="bib-item">
-		<b>Dadheech, N.</b>, He, T. L., & Turner, A. J. FootNet v3: Generalized machine learning emulator for atmospheric transport for surface and space-borne observations (<i>in prep</i>).
-		<!-- <a target="'_blank'" href="../files/dadheechEtAl2024.pdf">
-				<b> Download PDF </b>
-			</a><br> -->
-		</li>
-
-	<br><li class="bib-item">
-		<b>Dadheech, N.</b>*, He, T. L.*, & Turner, A. J. (2024). High-resolution greenhouse gas flux inversions using a machine learning surrogate model for atmospheric transport. EGUsphere, 2024, 1-21. <i>in review</i>, * equally contributed authors.
-		<a target="'_blank'" href="../files/dadheechEtAl2024.pdf">
-				<b> Download PDF </b>
+		<b>Dadheech, N.</b>, & Turner, A. J. Simulating out-of-sample atmospheric transport to enable flux inversions. Atmospheric Chemistry and Physics, 26(1), 427-441.
+		<a target="'_blank'" href="../files/dadheech&turner2026.pdf">
+				<b> PDF </b>
 			</a><br>
 		</li>
 
+	<li class="bib-item">
+		<b>Dadheech, N.</b>*, He, T. L.*, & Turner, A. J. (2025). High-resolution greenhouse gas flux inversions using a machine learning surrogate model for atmospheric transport. Atmospheric Chemistry & Physics, 25, 5159–5174.* equally contributed authors.
+		<a target="'_blank'" href="../files/DadheechEtAl2025.pdf">
+				<b> PDF </b>
+			</a><br>
+	</li>
+
 	<br><li class="bib-item">
-		He, T. L.*, <b>Dadheech, N.</b>*, Thompson, T. M., & Turner, A. J. (2023). FootNet: Development of a machine learning emulator of atmospheric transport. <i>in review</i>, * equally contributed authors.
-	<a target="'_blank'" href="../files/footnet_v4.pdf">
-		<b> Download PDF </b><br>
-		</a>
+		<b>Dadheech, N</b>*, He, T. L.*, Thompson, T. M., & Turner, A. J. (2025). FootNet v1. 0: development of a machine learning emulator of atmospheric transport. Geoscientific Model Development, 18(5), 1661-1671. * equally contributed authors.
+		<a target="'_blank'" href="../files/HeEtAl2025.pdf">
+			<b> PDF </b><br>
+		</a><br>
 	</li>
 </section>
